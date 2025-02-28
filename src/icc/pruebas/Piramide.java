@@ -149,15 +149,15 @@ public class Piramide {
     }
 
     public static void main(String[] args) {
-        System.out.println(Piramide.toStrings(Piramide.pascalTriangle(5, 3)));
-        System.out.println("Piramide original:");
-        System.out.println(Piramide.toStrings(Piramide.piramide(5)));
-        System.out.println("\nPiramide invertida horizontalmente:");
-        System.out.println(Piramide.toStrings(Piramide.invertirHorizontalmente(Piramide.piramide(5))));
-        System.out.println("\nPiramide invertida verticalmente:");
-        System.out.println(Piramide.toStrings(Piramide.invertirVerticalmente(Piramide.piramide(5))));
-        System.out.println("\nPiramide transpuesta:");
-        System.out.println(Piramide.toStrings(Piramide.transponer(Piramide.piramide(5))));
+        ps.println(Piramide.toStrings(Piramide.pascalTriangle(5, 3)));
+        ps.println("Piramide original:");
+        ps.println(Piramide.toStrings(Piramide.piramide(5)));
+        ps.println("\nPiramide invertida horizontalmente:");
+        ps.println(Piramide.toStrings(Piramide.invertirHorizontalmente(Piramide.piramide(5))));
+        ps.println("\nPiramide invertida verticalmente:");
+        ps.println(Piramide.toStrings(Piramide.invertirVerticalmente(Piramide.piramide(5))));
+        ps.println("\nPiramide transpuesta:");
+        ps.println(Piramide.toStrings(Piramide.transponer(Piramide.piramide(5))));
 
     }
 }
